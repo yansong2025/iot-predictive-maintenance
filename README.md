@@ -10,6 +10,9 @@ It demonstrates an event-driven architecture similar to industrial systems
 ## 🧱 Architecture
 
 Sensor Simulator → MQTT (Mosquitto) → Consumer → Flask API → Streamlit Dashboard
+<p align="center">
+  <img src="workflow.png" width="800"/>
+</p>
 
 ---
 
