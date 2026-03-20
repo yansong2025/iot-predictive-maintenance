@@ -3,7 +3,7 @@
 ## 🚀 Overview
 This project simulates a real-time IoT predictive maintenance system using MQTT, microservices, and a Streamlit dashboard.
 
-It demonstrates an event-driven architecture similar to industrial systems (e.g., ENGIE Smart O&M).
+It demonstrates an event-driven architecture similar to industrial systems
 
 ---
 
