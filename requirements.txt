@@ -1,0 +1,6 @@
+flask
+paho-mqtt
+requests
+streamlit
+pandas
+streamlit-autorefresh
