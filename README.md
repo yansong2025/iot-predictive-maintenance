@@ -69,20 +69,6 @@ docker-compose up --build
 
 ---
 
-## 📸 Screenshots
-
-### 🔧 Dashboard
-<p align="center">
-  <img src="images/dashboard.png" width="800"/>
-</p>
-
-### 📊 Monitoring (Grafana)
-<p align="center">
-  <img src="images/grafana.png" width="800"/>
-</p>
-
----
-
 ## 🧠 Key Concepts
 
 - Event-driven architecture  
