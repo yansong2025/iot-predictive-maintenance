@@ -1,11 +1,16 @@
 from flask import Flask, jsonify, request
+from prometheus_client import Counter, generate_latest, CONTENT_TYPE_LATEST
 import time
-
+REQUEST_COUNT = Counter("api_requests_total", "Total API Requests")
+ALERT_COUNT = Counter("alerts_created_total", "Total alerts created")
 app = Flask(__name__)
 
 # Temporary in-memory store
 alerts = []
 
+@app.route("/metrics")
+def metrics():
+    return generate_latest(), 200, {"Content-Type": CONTENT_TYPE_LATEST}
 # GET all alerts / POST new alert
 @app.route("/alerts", methods=["GET", "POST"])
 def handle_alerts():
