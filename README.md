@@ -14,7 +14,7 @@ It demonstrates an **event-driven architecture** similar to real-world industria
 Sensor Simulator → MQTT (Mosquitto) → Consumer → Flask API → Streamlit Dashboard → Prometheus → Grafana
 
 <p align="center">
-  <img src="images/workflow.png" width="800"/>
+  <img src="workflow.png" width="800"/>
   <br/>
   <em>Figure: End-to-end IoT data pipeline architecture</em>
 </p>
